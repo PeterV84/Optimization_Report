@@ -1,3 +1,85 @@
 # Optimization_Report
 
 Optimization report for Hospital
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link 
+  rel ="stylesheet" 
+  href="css/style.css">
+  <p style="font-family:Verdana"></p>
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+        
+      </div>
+    </div>
+    <div><p>
+      Many bacteria species or not studied and many more remain elusive to the science world. By exploring the bacterial species that synthesize proteins to create a synthetic beef, the dependency on beef products may slowly decrease. Livestock create a tremendous amount of pollution but to convince people to eat synthetic meat, it must taste good. "Improbable Beef" is searching for a bacteria that will supply that taste. The human body has thousands of bacteria, but focus on the belly button will hopefully deliver the perfect specimen to create the new line of food within "Improbable Beef."
+
+    </p></div>
+
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="Charts.js"></script>
+  
+</body>
+
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
